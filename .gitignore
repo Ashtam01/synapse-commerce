@@ -1,6 +1,6 @@
 node_modules/
 ai-service/env/
-client/
+# client
 .env
 __pycache__/
 .DS_Store
