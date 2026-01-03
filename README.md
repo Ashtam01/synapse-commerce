@@ -61,14 +61,13 @@ pip install -r requirements.txt
 
 ### 2. Configure Environment
 
-Create `server/.env`:
-
-```env
-PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/synapse
-AI_SERVICE_URL=http://localhost:8000
-OPENAI_API_KEY=your_openai_api_key_here
+```bash
+cd server
+cp .env.example .env
+# Edit .env and add your OpenAI API key
 ```
+
+Get your OpenAI API key from: https://platform.openai.com/api-keys
 
 ### 3. Start Services
 
